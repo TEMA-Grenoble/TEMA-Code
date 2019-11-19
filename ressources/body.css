@@ -1,0 +1,45 @@
+body{
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+}
+
+p{
+        font-family: 'Comfortaa';
+}
+
+nav > ul > li{
+        font-size: 24px;
+}
+
+h1{
+        font-size: 34px;
+}
+
+.card p{
+        font-size: 24px;
+}
+
+.card a{
+        font-size: 44px;
+        color: black;
+}
+
+article{
+        min-height: 80vh;
+}
+
+#bouton{
+        border:1px solid;   
+	padding:12px 20px 12px 20px;
+	border-radius:8px;
+	background:#70798c;
+	font:bold 13px Arial;
+        color:#fff;
+        transition: box-shadow 0.5s;
+}
+
+#bouton:hover{
+        box-shadow:0px 0px 20px #999;
+        transition: box-shadow 0.5s;
+}

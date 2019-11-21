@@ -10,18 +10,24 @@
 	
 	<!--stylesheet-->
 	<link rel="stylesheet" href="src/style.css"/>
+	<link rel="stylesheet" href="src/navbar.css"/>
 	<title>TEMA</title>
 </head>
 <body>
 	<nav>
-		<ul>
-			<li><a href="index.html">Accueil</a></li>
-			<li><a href="#">Nos tests</a></li>
+		<img id="logo" src="ressources/logo/TEMA_New_LogoV1.1_Transparent.png" height="50px">
+		<ul class="navbarList" id="oneList">
+			<li class="firstLi"><a href="index.html">Accueil</a></li>
+			<li class="firstLi"><a href="#">Nos tests</a></li>
+				<ul class="navbarList">
+					<li class="secondLi"><a href="fasttest.html">Test rapide</a></li>
+					<li class="secondLi"><a href="slowtest.html">Test long</a></li>
+				</ul>
 			<li><a href="map.html">Carte</a></li>
 		</ul>
-		<ul>
-			<li><a href="singin.html">Connexion</a></li>
-			<li><a href="singup.html">Inscription</a></li>
+		<ul class="navbarList" id="twoList">
+			<li class="thirdLi"><a id="padding" href="singin.html">Connexion</a></li>
+			<li class="thirdLi"><a href="singup.html">Inscription</a></li>
 		</ul>
 	</nav>
 	

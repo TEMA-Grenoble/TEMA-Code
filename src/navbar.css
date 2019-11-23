@@ -47,7 +47,7 @@ a {
 
 				/* NAVBAR 2 */
 
-#two-list {
+/* #two-list {
 	padding: 5px;
 	margin-right: 25px;
 	margin-left: 0px;
@@ -57,8 +57,25 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	align-content: center;
+	width: 200px;
+} */
+
+.thirdLi {
+	padding: 5px;
+	margin-right: 25px;
+	margin-left: 0px;
+	/* background-color: #7e7c94; */
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
 }
 
-#padding {
-	padding-right: 25px;
+.thirdLi:hover {
+	background-color: black;
+}
+
+#singinLi {
+	background-color: #383a3c;
 }

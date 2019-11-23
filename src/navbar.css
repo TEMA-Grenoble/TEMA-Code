@@ -12,7 +12,7 @@ nav {
 }
 
 #logo {
-	margin: 3px;
+	padding: 10px;
 }
 
 .navbarList  {
@@ -38,27 +38,17 @@ a {
 .firstLi {
 	padding-left: 10px;
 	padding-right: 10px;
-
+	border-bottom: 2px solid #F63D3D;
 }
 
-.secondLi {
+				/* SUB NAVBAR */
+
+#subUl {
 	display: none;
 }
 
 				/* NAVBAR 2 */
 
-/* #two-list {
-	padding: 5px;
-	margin-right: 25px;
-	margin-left: 0px;
-	background-color: #7e7c94;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-content: center;
-	width: 200px;
-} */
 
 .thirdLi {
 	padding: 5px;
@@ -72,10 +62,20 @@ a {
 	align-content: center;
 }
 
-.thirdLi:hover {
-	background-color: black;
+#singinLi {
+	border: 2px solid #F63D3D;
 }
 
-#singinLi {
-	background-color: #383a3c;
+#singinLi:hover {
+	background-color: #F63D3D;
 }
+
+#singupLi {
+	background-color: #F63D3D;
+}
+
+ #singupLi:hover{
+	 color: black;
+	 background-color: #302E4E;
+	 border: 2px solid #F63D3D;
+ }

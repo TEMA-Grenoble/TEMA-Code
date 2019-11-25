@@ -60,6 +60,7 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	align-content: center;
+	transition: 0.3s;
 }
 
 #singinLi {
@@ -72,10 +73,10 @@ a {
 
 #singupLi {
 	background-color: #F63D3D;
+	border: 2px solid #F63D3D;
 }
 
  #singupLi:hover{
 	 color: black;
 	 background-color: #302E4E;
-	 border: 2px solid #F63D3D;
  }
